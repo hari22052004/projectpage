@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="d-flex flex-row justify-content-center">
+            <img src="softwareimg.png" class="home-image" />
+        </div>
+        <div class="home-text">
+            <h1>My projects</h1>
+            <p>there are few my static wepsite that i have<br />
+                devoloped using HTML,css and bootstrap</p>
+            <div class="home-multi-image2 d-flex flex-row justify-content-center">
+                <img src="gamer.png" class="home-multi-image" onclick="display('sectionadvanceportal')" />
+                <img src="diwali.png" class="home-multi-image" onclick="display('sectiondiwali')" />
+            </div>
+            <div class="home-multi-image2 d-flex flex-row justify-content-center">
+                <img src="foodbg.png" class="home-multi-image" onclick="display('sectionmealsmenu')" />
+                <img src="newsbg.png" class="home-multi-image" onclick="display('sectionnewspaper')" />
+            </div>
+        </div>
+    </div>
+    <div id="sectionadvanceportal">
+        <div class="bacground-image-container d-flex flex-column justify-content-end">
+            <div class="background-space">
+                <h1 class="headfile">Advanced technologies</h1>
+                <p class="para-card">
+                    machinery and equipment devoloped from the application of scintific knowledge
+                </p>
+                <button class="button-card1 btn btn-primary">
+                    learn more
+                </button>
+                <button class="button-card2 btn btn-primary" onclick="display('sectionhome')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionnewspaper">
+        <div class="background-image-container d-flex flex-column justify-content-end">
+            <div class="background-card">
+                <p>NEWS OF THE DAY</p>
+                <h1 class="head-card">IB cricket announces world's first virtual Reality Criket League</h1>
+                <p class="para-card">iB cricket and viu together have announced the world's
+                    first virtual reality cricket league featuring 122 international
+                    cricketers,who will br competting against each other for
+                    the iB cricket super over league title in mumbai.iconic
+                    cricketers like viranter schweg,suresh raina,ms.doni,virat khozhi
+                    will be competting in the league.</p>
+                <button class="button-card btn">Read more</button>
+                <button class="btn btn-primary" onclick="display('sectionhome')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionmealsmenu">
+        <div class="imagecontainer d-flex flex-column justify-content-end">
+            <div class="order-card">
+                <h1>Happy Meals</h1>
+                <p class="para">Discover the best foods over the 1,000 restaurants</p>
+                <button class="button btn btn primary">Book Now</button>
+                <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectiondiwali">
+        <div class="diwali-top-section">
+            <h1 class="diwali-top-section-heading">
+                Celebrate Diwali with your friends
+            </h1>
+        </div>
+        <div class="diwali-bottom-section">
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+                    <p class="diwali-card-price">Rs 369</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Diwali - Lamp</h1>
+                    <p class="diwali-card-price">Rs 50</p>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Sparklers</h1>
+                    <p class="diwali-card-price">Rs 150</p>
+                </div>
+
+                <div class="diwali-card-item">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png" class="diwali-card-image" />
+                    <h1 class="diwali-card-name">Fire Cracker</h1>
+                    <p class="diwali-card-price">Rs 560</p>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

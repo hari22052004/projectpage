@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.home-image {
+    height: 30vh;
+    width: 250px;
+    text-align: center;
+}
+
+.home-text {
+    text-align: center;
+    color: #183b56;
+    font-family: "Bree Serif";
+}
+
+.home-multi-image {
+    height: 25vh;
+    width: 180px;
+    margin: 10px;
+}
+
+.home-multi-image2 {
+
+    border-radius: 10px;
+}
+
+.bacground-image-container {
+    background-image: url(" gamer.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.background-space {
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 25px;
+    margin: 5px;
+    border-color: #d7dfe9;
+}
+
+.headfile {
+    color: #5752ab;
+    font-family: "Bree Serif";
+}
+
+.para-card {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 20px;
+
+}
+
+.button-card1 {
+    background-color: #5752ab;
+    color: #171f46;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+
+}
+
+.button-card2 {
+    background-color: #5752ab;
+    color: #171f46;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.background-image-container {
+    background-image: url("newsbg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.background-card {
+    background-color: white;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.head-card {
+    color: #323f4b;
+    font-size: 30px;
+    font-family: "Roboto";
+
+}
+
+.para-card {
+    color: #7b8794;
+    font-family: "Roboto";
+}
+
+.button-card {
+    background-color: #323f4b;
+    color: #ffffff;
+    padding: 10px;
+    margin: 5px;
+}
+
+.imagecontainer {
+    background-image: url("foodbg.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.order-card {
+    background-color: #f6c56e;
+    height: 30vh;
+    padding: 2px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: left;
+}
+
+.button {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.para {
+    color: #323f4b;
+    font-family: "bree Serif";
+    font-size: 30px;
+}
+
+.diwali-top-section {
+    background-image: url("diwali.png");
+    height: 30vh;
+    background-size: cover;
+}
+
+.diwali-top-section-heading {
+    color: white;
+    font-family: "Caveat";
+    font-size: 36px;
+    width: 200px;
+    padding: 20px;
+}
+
+.diwali-bottom-section {
+    text-align: center;
+    background-color: #e6f6ff;
+    padding: 15px;
+}
+
+.diwali-card-item {
+    text-align: center;
+    background-color: white;
+    width: 140px;
+    border-radius: 9px;
+    padding: 16px;
+    margin: 15px;
+}
+
+.diwali-card-image {
+    height: 64px;
+    width: 64px;
+}
+
+.diwali-card-name {
+    color: #616e7c;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.diwali-card-price {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 16px;
+    font-weight: 500;
+}
